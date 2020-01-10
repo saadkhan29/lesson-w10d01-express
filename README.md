@@ -564,15 +564,16 @@ To do that, let's start by writing a dummy route to show a list of people.
 Add a Route to List People:
 
 ```javascript
-let people = [
-  {firstName: 'Usman', lastName: 'Bashir'},
-  {firstName: 'Marc', lastName: 'Wright'},
-  {firstName: 'Alanoud', lastName: 'Alrasheed'},
-];
 
-app.get('/api/people', function(req, res) {
-  res.json({ people: people });
-});
+  let people = [
+    {firstName: 'Saad', lastName: 'Iqbal'},
+    {firstName: 'Ali', lastName: 'Khan'},
+    {firstName: 'Bob', lastName: 'Stephen'},
+  ];
+  
+  app.get('/api/people', function(req, res) {
+    res.json({ people: people });
+  });
 ```
 
 Getting all of the people is fine and all. But what if we only want details on a single person?
