@@ -720,7 +720,7 @@ const router = express.Router(); // use the router module from express
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.json({ message: 'Hello SEI Eternity' });
+  res.json({ message: 'Hello SEI Students' });
 });
 
 module.exports = router; // export the router object so we can use it in server.js
