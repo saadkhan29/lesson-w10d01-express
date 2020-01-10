@@ -242,7 +242,7 @@ We just built the foundation for our server and for your first web application!
     - **Node** is our server software that we have configured to run on a port to listen for incoming HTTP requests from the browser.
 - We installed **Express**, which is our lightweight JS framework, and was built to help simplify the job of building an application that can interact with HTTP requests coming from the internet.
 - We defined a single root/home route (`/`). When Node receives a request via `http://localhost:3000`, it will serve "Hello World" as a response. All of our local routes for this app will start with `http://localhost:3000`, as we have set our default port to 3000.
-- We also installed Nodemon which will automatically restart our node server whenever a change is detected, so we don't have to manually stop/restart our server every time a file changes.W
+- We also installed Nodemon which will automatically restart our node server whenever a change is detected, so we don't have to manually stop/restart our server every time a file changes.
 
 <br />
 
