@@ -246,9 +246,9 @@ We just built the foundation for our server and for your first web application!
 
 <br />
 
-&#x1F535; **YOU DO (15 minutes)**
+&#x1F535; **YOU DO - Team Lab (30 minutes)**
 
-Get together with your buddy. Remember: We are here and you can still ask questions! Spend the next 15 minutes on this exercise.
+Remember: We are here and you can still ask questions! Spend the next 30 minutes on this exercise.
 
 http://expressjs.com/en/starter/basic-routing.html
 
