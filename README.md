@@ -323,17 +323,6 @@ Try this URL: `http://localhost:3000/schmitty`. What is returned?
 
 <br />
 
-### Why are params important?
-
-Eventually, we will use "wildcard" params to grab specific information from our app. For example, if we were building a Facebook replica, and we wanted to grab a specific friend of a specific user, we might build a route that looks like this:
-
-`http://localhost:3000/users/:user_id/friends/:friend_id`
-
-Then, we can send a request like this:
-
-`http://localhost:3000/users/1/friends/2`
-
-<br />
 
 &#x1F535; **YOU DO: 5 minutes** 
 
@@ -344,9 +333,22 @@ Did anyone run into any issues?
 
 <br />
 
+### Why are params important?
+
+Eventually, we will use "wildcard" params to grab specific information from our app. For example, if we were building a Facebook replica, and we wanted to grab a specific friend of a specific user, we might build a route that looks like this:
+
+`http://localhost:3000/users/:user_id/friends/:friend_id`
+
+Then, we can send a request like this:
+
+`http://localhost:3000/users/1/friends/2`
+
+
+<br />
+
 ## Query Parameters
 
-Our base route is a fixed path to a specific resource (like an html page, a piece of data in our database, an image, etc.) and we can augment or support that path by providing parameters.
+Our base route is a fixed path to a specific resource (like an html page, a piece of data in our database, an image, etc.) and we can argument or support that path by providing parameters.
 
 The query parameter pattern should be familiar, it is essentially a key and a value:
 
