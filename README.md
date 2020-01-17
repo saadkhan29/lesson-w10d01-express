@@ -246,7 +246,7 @@ We just built the foundation for our server and for your first web application!
 
 <br />
 
-&#x1F535; **YOU DO - Team Lab (30 minutes)**
+&#x1F535; **YOU DO - Team Lab (15 minutes)**
 
 Remember: We are here and you can still ask questions! Spend the next 30 minutes on this exercise.
 
@@ -406,7 +406,7 @@ You actually use query parameters all the time on Amazon, Ebay, Airbnb, etc. - a
 
 <br />
 
-&#x1F535; **YOU DO: 5 minutes**
+&#x1F535; **YOU DO: 10 minutes**
 
 1. Write a route at `/sightings` that takes a query parameter of `state` and `sights` and responds with an object that looks like this:
 
