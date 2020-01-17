@@ -693,18 +693,7 @@ app.post('/api/person', function(req, res) {
 
 Great, we now have an API that lets us see a list of all the people or details about one of them and it even allows us to create a new person.
 
-With that, we have implemented the **C**, and **R** parts of **CRUD**.
 
-Now it is up to you to implement the **U**, and **D** parts of **CRUD** in a lab right now based on what we have learned today.
-
-### Lab
-
-**To Do:**
-
-1. Update existing Person
-1. Delete existing Person
-
-<br />
 
 ## Express Router
 
@@ -743,7 +732,7 @@ app.use('/', indexRouter);
 
 &#x1F535; **WE DO: Refactor People Index Route**
 
-&#x1F535; **YOU DO: 15 minutes**
+&#x1F535; **YOU DO: 30 minutes**
 
 Now that we have seen the express router in action. Use your knowledge of it, to refactor the remaining routes we've added so far today to our app.
 
