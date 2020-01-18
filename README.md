@@ -20,7 +20,7 @@
 
 ### Express as an API
 
-- Write five CRUD endpoints for an API resource using Express and JavaScript to implement a REST service.
+- Write endpoints for an API resource using Express and JavaScript to implement a REST service.
 
 ### Express Router
 
