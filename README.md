@@ -301,7 +301,7 @@ We can also use `res.redirect` to trigger another route before sending a respons
 
 <br />
 
-You can check out the Request and Reponse headers in the Network tab in your Chrome dev tools. They contain a lot of key/value pairs that we will discuss and use throughout the course.
+You can check out the Request and Reponse headers in the Network tab in your Chrome dev tools. They contain a lot of key/value pairs that we will discuss and use throughout the course. Follow the [link](https://expressjs.com/en/guide/routing.html)
 
 ![](https://i.imgur.com/DIA7MR4.png)
 
@@ -406,7 +406,7 @@ You actually use query parameters all the time on Amazon, Ebay, Airbnb, etc. - a
 
 <br />
 
-&#x1F535; **YOU DO: 10 minutes**
+&#x1F535; **YOU DO: 20 minutes**
 
 1. Write a route at `/sightings` that takes a query parameter of `state` and `sights` and responds with an object that looks like this:
 
